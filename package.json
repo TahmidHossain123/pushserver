@@ -1,0 +1,16 @@
+{
+  "name": "din-host-push-server",
+  "version": "1.0.0",
+  "description": "Firebase Cloud Messaging Push Notification Server for DIN Host",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0"
+  }
+}
